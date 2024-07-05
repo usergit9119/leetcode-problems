@@ -1,52 +1,63 @@
-<body>
-    <h1>LeetCode Problems - Medium</h1>
+# LeetCode Problem Solutions - Medium
 
-    <h2>Оглавление</h2>
-    <ul>
-        <li><a href="#описание">Описание</a></li>
-        <li><a href="#структура-репозитория">Структура Репозитория</a></li>
-        <li><a href="#запуск-решений">Запуск Решений</a></li>
-        <li><a href="#требования">Требования</a></li>
-        <li><a href="#вклад">Вклад</a></li>
-        <li><a href="#контакты">Контакты</a></li>
-    </ul>
+Welcome to the **LeetCode Problem Solutions** repository! This branch (`Medium`) contains solutions to medium-level problems on LeetCode.
 
-    <h2 id="описание">Описание</h2>
-    <p>В этом репозитории находятся мои решения задач уровня Medium с платформы LeetCode. Цель этого проекта - улучшить мои навыки программирования и решения алгоритмических задач.</p>
+## Table of Contents
 
-    <h2 id="структура-репозитория">Структура Репозитория</h2>
-    <pre>
+- [Introduction](#introduction)
+- [Directory Structure](#directory-structure)
+- [Problem List](#problem-list)
+- [How to Contribute](#how-to-contribute)
+- [Resources](#resources)
+
+## Introduction
+
+This repository is dedicated to providing solutions to various medium-level problems on LeetCode. Each solution is implemented in Python and includes detailed explanations to help you understand the approach and logic.
+
+## Directory Structure
+
+The repository is organized as follows:
 <code>
 leetcode-problem/
 ├── Medium/
-│   ├── problem1/
-│   │   ├── solution.py
-│   │   ├── README.md
-│   ├── problem2/
-│   │   ├── solution.py
-│   │   ├── README.md
-│   └── ...
+│ ├── problem_1/
+│ │ ├── solution.py
+│ │ └── README.md
+│ ├── problem_2/
+│ │ ├── solution.py
+│ │ └── README.md
+│ └── ...
 └── README.md
 </code>
-    </pre>
-    <p>Каждая папка для задачи содержит:</p>
-    <ul>
-        <li><code>solution.py</code>: файл с решением задачи.</li>
-        <li><code>README.md</code>: описание задачи и, при необходимости, объяснение решения.</li>
-    </ul>
 
-    <h2 id="запуск-решений">Запуск Решений</h2>
-    <p>Для запуска решений вам потребуется Python. Вы можете запустить каждый скрипт следующим образом:</p>
-    <pre><code>python path/to/solution.py</code></pre>
 
-    <h2 id="требования">Требования</h2>
-    <ul>
-        <li>Python 3.7+</li>
-        <li>Библиотеки, указанные в <code>requirements.txt</code> (если такие имеются).</li>
-    </ul>
+- **Medium/**: Contains folders for each medium-level problem.
+- **problem_x/**: Each problem has its own folder with the solution and a README file explaining the solution.
 
-    <h2 id="вклад">Вклад</h2>
-    <p>Если у вас есть предложения по улучшению решений или вы нашли ошибку, пожалуйста, откройте issue или создайте pull request. Ваш вклад приветствуется!</p>
+## Problem List
 
-    <h2 id="контакты">Контакты</h2>
-    <p>Если у вас есть вопросы или предложения, вы можете связаться со мной по электронной почте: <a href="mailto:userbot9119.com">userbot9119@gmail.com</a>.</p>
+| Problem Number | Problem Name | Solution Link |
+|----------------|--------------|---------------|
+| 1              | Example Problem 1 | [solution](Medium/problem_1/solution.py) |
+| 2              | Example Problem 2 | [solution](Medium/problem_2/solution.py) |
+| ...            | ...            | ...           |
+
+This table will be updated as new problems are added. Each problem folder contains a `README.md` with detailed explanations and a link to the problem on LeetCode.
+
+## How to Contribute
+
+We welcome contributions! If you'd like to contribute:
+
+1. Fork the repository.
+2. Create a new branch for your contribution.
+3. Add your solution and update the problem list in the `README.md`.
+4. Submit a pull request with a detailed description of your changes.
+
+Please ensure your code follows the repository's style guidelines and includes comments for clarity.
+
+## Resources
+
+- [LeetCode](https://leetcode.com/)
+- [Python Documentation](https://docs.python.org/3/)
+
+Happy coding!
